@@ -1,0 +1,21 @@
+
+.button{
+    background-color: hotpink;
+    border: 1px solid hotpink;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:disabled {
+    opacity: 0.5;
+}
+
+.button_wrapper {
+    display: flex;
+
+}
